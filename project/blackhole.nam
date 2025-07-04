@@ -1,0 +1,63 @@
+V -t * -v 1.0a5 -a 0
+W -t * -x 800 -y 600
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+n -t 1.000000 -s 0 -x 657.867718 -y 587.048245 -U -9.997594 -V -0.219361 -T 3.980259
+n -t 1.000000 -s 1 -x 159.797257 -y 84.372373 -U 9.084946 -V 4.178966 -T 47.784618
+n -t 1.000000 -s 2 -x 328.634061 -y 114.503028 -U -6.401192 -V 7.682756 -T 42.819802
+n -t 1.000000 -s 3 -x 336.514177 -y 445.324398 -U 8.933109 -V 4.494393 -T 10.071086
+n -t 1.000000 -s 4 -x 222.883395 -y 300.912767 -U -2.545192 -V -9.670677 -T 30.287050
+n -t 1.000000 -s 5 -x 54.507200 -y 76.888413 -U 9.365105 -V 3.506395 -T 41.587184
++ -t 2.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 0 -k AGT 
+- -t 2.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 0 -k AGT
+h -t 2.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 0 -k AGT
++ -t 2.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 2.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 2.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 2.000115000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC 
+- -t 2.000115000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+h -t 2.000115000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
++ -t 4.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 4.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 4.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 4.000375000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC 
+- -t 4.000375000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+h -t 4.000375000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
++ -t 5.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 1 -k AGT 
+- -t 5.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 1 -k AGT
+h -t 5.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 1 -k AGT
++ -t 8.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 8.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 8.000000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 8.000075000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC 
+- -t 8.000075000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+h -t 8.000075000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+r -t 8.000923816 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k MAC
+r -t 8.000948816 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 8.009113577 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 8.009113577 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 8.009113577 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 8.009428577 -s 3 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC 
+- -t 8.009428577 -s 3 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+h -t 8.009428577 -s 3 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+r -t 8.010277392 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k MAC
+r -t 8.010302392 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 11.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 2 -k AGT 
+- -t 11.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 2 -k AGT
+h -t 11.000000000 -s 0 -d -1 -p tcp -e 40 -c 2 -a 0 -i 2 -k AGT
++ -t 13.500000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 13.500000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 13.500000000 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 13.500335000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC 
+- -t 13.500335000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+h -t 13.500335000 -s 0 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+r -t 13.501183714 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k MAC
+r -t 13.501208714 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 13.502850168 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR 
+- -t 13.502850168 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
+h -t 13.502850168 -s 3 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
++ -t 13.503465168 -s 3 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC 
+- -t 13.503465168 -s 3 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+h -t 13.503465168 -s 3 -d -1 -p AODV -e 106 -c 2 -a 0 -i 0 -k MAC
+r -t 13.504313882 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k MAC
+r -t 13.504338882 -s 0 -d -1 -p AODV -e 48 -c 2 -a 0 -i 0 -k RTR
